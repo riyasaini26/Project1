@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya's Caters</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Dancing+Script&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<style>
+    body {
+        background: url(img/photo2.jpg) no-repeat;
+        
+    }
+
+    .left {
+        display: inline-block;
+        color: rgb(117, 12, 158);
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 30px;
+        top: 8px;
+        font-family: 'Baloo Bhai 2', cursive;  
+        font-size:15px;
+        
+    }
+    .left img{
+        width:30px;
+        height:30px;
+    }
+
+    .mid {
+        display: block;
+        margin: auto;
+        width: 50%;
+        color: black;
+        font-family:'Dancing Script', cursive;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .right {
+        display: inline-block;
+        color: black;
+        /* border: 2px solid green; */
+        position: absolute;
+        top: 8px;
+        right: 13px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+       
+        font-size:20px;
+    }
+    .navbar li a{
+        color:#26c409;
+        text-decoration: none;
+        list-style: none;
+        padding: 50px 25px; 
+    }
+    .navbar li a:hover{
+        color:blueviolet;
+        text-decoration: underline;
+    }
+    .btn{
+        cursor: pointer;
+        border:2px solid black;
+        border-radius: 32px;
+        padding: 15px 20px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .btn:hover{
+        color:grey;
+        text-decoration: underline;
+    }
+    header{
+        background-color: rgb(0, 0, 0);
+     
+    }
+    .heading{
+        font-family:'Dancing Script', cursive; 
+        color:yellow;
+        text-align: center;
+        font-size: 50px;
+    }
+    .hed{
+        font-family: cursive;
+        text-align: center;
+        color: rgb(106, 212, 64);
+    }
+    .container{
+        font-family:  'Baloo Bhai 2', cursive;
+        text-align: center;
+    }
+    
+    .container:hover{
+        background-color: greenyellow;
+    }
+    h3{
+        margin: 12px 12px;
+        color: rgb(175, 120, 214);
+        font-size: larger;
+    }
+    .form1 input{
+        padding: 8px;
+        margin: 12px 12px;
+        font-family: 'Baloo Bhai 2', cursive;
+        width:300px;
+       text-align: center;
+       font-size: 15px;
+    }
+    .btn1{
+        border-radius: 20px;
+        cursor: pointer;
+        margin: 12px 12px;
+    }
+    .pd{
+        border:2px solid white;
+        width:400px;
+    }
+    
+</style>
+
+<body>
+    <header>
+    <div class="left">
+        <img src="img/logo.jpg">
+        <div >
+            RIYA's CATERS
+        </div>
+    </div>
+    <div class="mid">
+        <div class="contaier">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Food we Offer</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About Us</a></li>                
+            </ul>
+        </div>
+       
+        
+    </div>
+    <div class="right">
+        <button class="btn">Contact Us</button>
+        <button class="btn">Email Us</button>
+        </div>
+</header>
+<h1 class="heading">Welcome To RIYA's CATERS</h1>
+<h2 class="hed">you choose we serve</h2>
+<div class="container">
+<p> 
+    We welcome you to the best caters. We assure you best serving, good and hygiene food.
+    Our chef are well trained and best.
+    <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsum dolores placeat vero fugit tenetur quae? Quos soluta illum saepe commodi doloremque modi qui velit fugiat corrupti, ducimus neque? Alias.
+</p>
+</div>
+
+<form action="noaction.php" class="pd">
+    <h3>For Bookings</h3>
+    <div class="form1">
+        <input type="text" name="" placeholder="Name">
+    </div>
+    <div class="form1">
+        <input type="text" name="" placeholder="Event">
+    </div>
+    <div class="form1">
+        <input type="text" name="" placeholder="Address">
+    </div>
+    <div class="form1">
+        <input type="text" name="" placeholder="Mobile No.">
+    </div>
+    <button class="btn1">Submit</button>
+</form>
+</body>
+
+</html>
